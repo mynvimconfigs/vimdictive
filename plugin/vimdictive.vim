@@ -191,9 +191,9 @@ if !hasmapto('<Plug>vimdictive_prior_meaning')
   silent! nmap <unique><silent> <leader>dp <Plug>vimdictive_prior_meaning
 endif
 
-if !hasmapto('<Plug>vimdictive_synonyms')
-  silent! nmap <unique><silent> <leader>ds <Plug>vimdictive_synonyms
-endif
+" if !hasmapto('<Plug>vimdictive_synonyms')
+"  silent! nmap <unique><silent> <leader>ds <Plug>vimdictive_synonyms
+" dif
 
 if !hasmapto('<Plug>vimdictive_filter')
   silent! nmap <unique><silent> <leader>df <Plug>vimdictive_filter
